@@ -1,0 +1,434 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Google fonts link */
+
+body {
+
+    font-family: sans-serif;
+}
+
+
+/* Section Navbar */
+
+.section-navbar {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+
+}
+
+.section__s1 {
+
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin-right: 50px;
+    color: #00D954;
+
+
+}
+
+
+.section__s1 img {
+
+    width: 60px;
+    height: 40px;
+
+}
+
+
+.section__s2 {
+
+    display: flex;
+    gap: 20px;
+
+
+}
+
+.section__para {
+
+    display: flex;
+    gap: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    align-items: center;
+
+}
+
+.section__para p:hover {
+
+    background-color: rgb(215, 210, 211);
+    padding: 10px;
+    border-radius: 20px;
+
+}
+
+.section__ai {
+
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    padding: 10px;
+    border-radius: 20px;
+    gap: 10px;
+    cursor: pointer;
+
+}
+
+.section__ai:hover {
+
+    background-color: darkgray;
+
+}
+
+
+.section__menubar {
+
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+
+.section__currency {
+
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.section__currency-name {
+
+    border-left: 2px solid black;
+    padding-left: 10px;
+    font-weight: bold;
+
+
+}
+
+
+.section__s3 {
+
+    font-weight: bold;
+
+}
+
+.section-signin {
+
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    cursor: pointer;
+
+}
+
+/* Headline section */
+
+.headline {
+
+    margin-top: 40px;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    color: #002B11;
+
+
+}
+
+
+
+
+/* searching things */
+
+.searching-things {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.search-things__para {
+
+    display: flex;
+    gap: 40px;
+    margin-top: 40px;
+    font-size: larger;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+
+.search-things__para p:hover {
+
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+
+}
+
+
+/* search-things__input */
+
+.search-things__input {
+
+    padding: 9px;
+    border: 1px solid black;
+    border-radius: 40px;
+    width: 50%;
+    margin-top: 30px;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
+}
+
+.search-input {
+
+    font-size: 16px;
+    border: none;
+    width: 70%;
+    background-color: transparent;
+
+
+}
+
+.search-input:focus {
+
+    outline: none;
+}
+
+
+.search-ai {
+
+    border: 1px solid black;
+    color: black;
+    border-radius: 20px;
+    cursor: pointer;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+
+.search-ai:hover {
+
+    background-color: #c8cfca;
+}
+
+.search-button {
+
+    background-color: #04f560;
+    color: black;
+    border-radius: 20px;
+    cursor: pointer;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid black;
+
+}
+
+.search-button:hover {
+
+    background-color: #09d156;
+
+}
+
+
+
+/* section booking */
+
+.section-booking {
+
+    margin-top: 60px;
+    width: 70%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #09D156;
+    border-radius: 20px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+
+
+}
+
+.booking-img {
+
+    border-right: 1px solid black;
+    padding-right: 20px;
+    position: relative;
+}
+
+.booking-img__para {
+
+    background-color: #00D954;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 30px;
+    border: 2px solid black;
+    position: absolute;
+    font-weight: bold;
+    left: 10px;
+    bottom: 15px;
+
+
+}
+
+
+.booking-info {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.booking-info__heading {
+
+    font-weight: 700;
+    font-size: 50px;
+    width: 80%;
+    color: #143C24;
+    top: 20px;
+
+}
+
+.booking-info__para {
+
+    font-weight: bold;
+    margin-top: 20px;
+    color: #143C24;
+
+}
+
+.booking-info__button {
+
+    font-weight: bolder;
+    padding: 20px;
+    background-color: #143C24;
+    color: white;
+    border-radius: 30px;
+    margin-top: 20px;
+
+}
+
+
+
+/* section explore */
+
+.section-explore {
+
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 205px;
+
+
+}
+
+.section-explore__head {
+
+    margin-top: 90px;
+    font-weight: bold;
+    font-size: larger;
+
+}
+
+.section-explore__para {
+
+    margin-top: 15px;
+
+}
+
+
+.section-explore__image {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    gap: 15px;
+    position: relative;
+
+}
+
+.section-explore__image img {
+
+    width: 35%;
+    border-radius: 10px;
+    cursor: pointer;
+    
+
+}
+
+.section-expolre__beach {
+
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    font-size: xx-large;
+    top: 160px;
+    left: 10px;
+    cursor: pointer;
+
+}
+.section-expolre__sea {
+
+     position: absolute;
+    color: white;
+    font-weight: bold;
+    font-size: xx-large;
+    top: 160px;
+    left: 39%;
+    cursor: pointer;
+
+}
+
+
+.section-expolre__hill {
+
+     position: absolute;
+    color: white;
+    font-weight: bold;
+    font-size: xx-large;
+    top: 160px;
+    left: 76%;
+    cursor: pointer;
+
+
+}
+
+.section-expolre__sunset {
+
+     position: absolute;
+    color: white;
+    font-weight: bold;
+    font-size: xx-large;
+    top: 160px;
+    left: 113%;
+    cursor: pointer;
+
+}
+
+/* Media Querise */
